@@ -1,0 +1,203 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.lug__event__container {
+	margin: 5rem 0;
+}
+
+.lug__event__container .lug__title__wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lug__event__container .lug__title__wrapper h4 {
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	position: relative;
+	margin-bottom: 0.5rem;
+}
+
+.lug__event__container .lug__underline__title {
+	width: 5rem;
+	height: 0.2rem;
+	background-color: #333;
+}
+
+.lug__event__timeline__container {
+	margin: 3rem;
+}
+
+/* timeline right */
+.lug__event__timeline__container .lug__event__timeline__item__right .lug__timeline__date {
+	width: 5rem;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 0.5rem solid #757575;
+	box-shadow: 0 0 0 0.5rem #848484, 0 0 0 1rem #c9c9c9;
+	border-radius: 5rem;
+}
+
+.lug__event__timeline__item__right {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 2rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__date {
+	position: relative;
+}
+
+.lug__event__timeline__item__right .lug__timeline__content {
+	width: 35%;
+	margin-left: 9.2rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__dot {
+	position: absolute;
+	width: 4rem;
+	height: 0.2rem;
+	background: #848484;
+	right: -8rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__dot::after {
+	content: "";
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	background: #757575;
+	right: 0;
+	top: -0.4rem;
+	border-radius: 1rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__date h4,
+.lug__event__timeline__item__right .lug__timeline__date h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #838383;
+}
+
+.lug__event__timeline__item__right .lug__timeline__date h4 {
+	font-size: 1.5rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__content h3 {
+	color: #3b3b3b;
+	margin-bottom: 0.5rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__content h4 {
+	display: flex;
+	align-items: center;
+	color: #858585;
+}
+
+.lug__event__timeline__item__right .lug__timeline__content h4 svg {
+	width: 1rem;
+	margin-right: 0.2rem;
+}
+
+.lug__event__timeline__item__right .lug__timeline__content p {
+	margin-top: 0.5rem;
+	color: #858585;
+	line-height: 2rem;
+}
+
+/* timeline left */
+.lug__event__timeline__container .lug__event__timeline__item__left .lug__timeline__date {
+	width: 5rem;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 0.5rem solid #757575;
+	box-shadow: 0 0 0 0.5rem #848484, 0 0 0 1rem #c9c9c9;
+	border-radius: 5rem;
+}
+
+.lug__event__timeline__item__left {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 2rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__date {
+	position: relative;
+}
+
+.lug__event__timeline__item__left .lug__timeline__content {
+	width: 35%;
+	margin-right: 9.2rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__dot {
+	position: absolute;
+	width: 4rem;
+	height: 0.2rem;
+	background: #848484;
+	left: -8rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__dot::after {
+	content: "";
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	background: #757575;
+	left: 0;
+	top: -0.4rem;
+	border-radius: 1rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__date h4,
+.lug__event__timeline__item__left .lug__timeline__date h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	color: #838383;
+}
+
+.lug__event__timeline__item__left .lug__timeline__date h4 {
+	font-size: 1.5rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__content h3 {
+	color: #3b3b3b;
+	margin-bottom: 0.5rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__content h4 {
+	display: flex;
+	align-items: center;
+	color: #858585;
+}
+
+.lug__event__timeline__item__left .lug__timeline__content h4 svg {
+	width: 1rem;
+	margin-right: 0.2rem;
+}
+
+.lug__event__timeline__item__left .lug__timeline__content p {
+	margin-top: 0.5rem;
+	color: #858585;
+	line-height: 2rem;
+}
+
+.lug__timeline__date.line__down::after {
+	content: "";
+	position: absolute;
+	width: 5rem;
+	height: 0.1rem;
+	background: #757575;
+	transform: rotate(270deg);
+	bottom: -5.5rem;
+}
