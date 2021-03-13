@@ -16,14 +16,14 @@
 }
 
 .lug__event__container .lug__title__wrapper h4 {
-	text-transform: capitalize;
-	font-size: 1.5rem;
+	text-transform: uppercase;
+	font-size: 2rem;
 	position: relative;
 	margin-bottom: 0.5rem;
 }
 
 .lug__event__container .lug__underline__title {
-	width: 5rem;
+	width: 4.5rem;
 	height: 0.2rem;
 	background-color: #333;
 }
@@ -40,8 +40,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 0.5rem solid #757575;
-	box-shadow: 0 0 0 0.5rem #848484, 0 0 0 1rem #c9c9c9;
+	border: 0.3rem solid #757575;
+	box-shadow: 0 0 0 0.3rem #848484, 0 0 0 0.6rem #c9c9c9;
 	border-radius: 5rem;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .lug__event__timeline__item__right .lug__timeline__date h4 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .lug__event__timeline__item__right .lug__timeline__content h3 {
@@ -120,8 +120,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 0.5rem solid #757575;
-	box-shadow: 0 0 0 0.5rem #848484, 0 0 0 1rem #c9c9c9;
+	border: 0.3rem solid #757575;
+	box-shadow: 0 0 0 0.3rem #848484, 0 0 0 0.6rem #c9c9c9;
 	border-radius: 5rem;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .lug__event__timeline__item__left .lug__timeline__date h4 {
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 
 .lug__event__timeline__item__left .lug__timeline__content h3 {
