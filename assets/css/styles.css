@@ -171,6 +171,7 @@
 }
 
 .lug__event__timeline__item__left .lug__timeline__content h3 {
+	text-align: right;
 	color: #3b3b3b;
 	margin-bottom: 0.5rem;
 }
@@ -178,6 +179,7 @@
 .lug__event__timeline__item__left .lug__timeline__content h4 {
 	display: flex;
 	align-items: center;
+	justify-content: flex-end;
 	color: #858585;
 }
 
@@ -190,6 +192,7 @@
 	margin-top: 0.5rem;
 	color: #858585;
 	line-height: 2rem;
+	text-align: right;
 }
 
 .lug__timeline__date.line__down::after {
