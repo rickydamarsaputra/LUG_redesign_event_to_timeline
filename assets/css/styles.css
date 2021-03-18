@@ -204,3 +204,47 @@
 	transform: rotate(270deg);
 	bottom: -5.5rem;
 }
+
+/* mobile responsive break points */
+@media (max-width: 575.98px) {
+	.lug__event__timeline__item__right .lug__timeline__dot,
+	.lug__event__timeline__item__left .lug__timeline__dot,
+	.lug__timeline__date.line__down::after {
+		display: none;
+	}
+
+	.lug__event__timeline__container .lug__event__timeline__item__right .lug__timeline__date,
+	.lug__event__timeline__container .lug__event__timeline__item__left .lug__timeline__date {
+		margin-bottom: 1.5rem;
+	}
+
+	.lug__event__timeline__item__right .lug__timeline__content,
+	.lug__event__timeline__item__left .lug__timeline__content {
+		width: auto;
+		margin: 0;
+	}
+
+	/* timeline right */
+	.lug__event__timeline__item__right {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* timeline left */
+	.lug__event__timeline__item__left {
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.lug__event__timeline__item__left .lug__timeline__content h3 {
+		text-align: left;
+	}
+
+	.lug__event__timeline__item__left .lug__timeline__content h4 {
+		justify-content: flex-start;
+	}
+
+	.lug__event__timeline__item__left .lug__timeline__content p {
+		text-align: left;
+	}
+}
